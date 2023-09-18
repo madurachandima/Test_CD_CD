@@ -1,5 +1,7 @@
 plugins {
     id("com.android.application")
+    id("com.google.gms.google-services")
+    id("com.google.firebase.appdistribution")
     id("org.jetbrains.kotlin.android")
 }
 
@@ -21,6 +23,9 @@ android {
     }
 
     buildTypes {
+        debug {
+            group = "QA"
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(
@@ -66,4 +71,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //Add firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
 }
