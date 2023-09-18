@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227417385549",
+    "project_id": "github-ci-cd-test",
+    "storage_bucket": "github-ci-cd-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227417385549:android:3aafc3191a13ce7bbb4a04",
+        "android_client_info": {
+          "package_name": "com.madura.test_cd_cd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIoNRJ78h59Gz1RhMrZBzJYiQGAUKdjIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
